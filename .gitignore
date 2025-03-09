@@ -1,0 +1,42 @@
+# Ambientes virtuais
+venv/
+.env/
+.venv/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.pyc
+__pycache__/
+
+# Dados sensíveis ou grandes
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.pkl
+*.h5
+*.joblib
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos gerados por testes
+htmlcov/
+coverage.xml
+*.cover
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+
