@@ -1,4 +1,4 @@
-# 🧠 Explicabilidade de Modelos Preditivos na Evasão Acadêmica: Um Estudo de Caso
+# Explicabilidade de Modelos Preditivos na Evasão Acadêmica: Um Estudo de Caso
 
 ## 📌 Objetivo
 
@@ -37,7 +37,7 @@ Os dados utilizados neste projeto foram extraídos do sistema acadêmico da inst
 Contudo, a base inclui variáveis como:
 
 - **Dados demográficos**: Sexo, Tipo de escola (pública/privada), Raça, Faixa etária, Região de origem.
-- **Desempenho acadêmico**: Coeficiente de Rendimento, Média de Conclusão, Índices de Eficiência Acadêmica.
+- **Desempenho acadêmico**: Coeficiente de Rendimento, Média de Conclusão, Índices de Eficiência Acadêmica entre outros.
 - **Informações temporais**: Ano de ingresso, Tempo de permanência, Prazo de integralização.
 - **Situação final**: Concluído ou Desligado (evasão).
 
@@ -51,7 +51,7 @@ O projeto seguiu a metodologia **CRISP-DM**, com foco nas etapas:
 
 - **Preparação dos dados**: Limpeza, criação de variáveis derivadas e recodificação de status.
 - **Análise exploratória**: Investigação dos perfis dos alunos evadidos e concluintes.
-- **Modelagem preditiva**: Testes com Random Forest, Regressão Logística e XGBoost, com balanceamento via SMOTE.
+- **Modelagem preditiva**: Testes XGBoost.
 - **Explicabilidade com SHAP**: Interpretação das previsões para identificar variáveis com maior impacto.
 
 ---
