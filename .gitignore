@@ -2,6 +2,7 @@
 venv/
 .env/
 .venv/
+Model/
 
 # Arquivos de sistema
 .DS_Store
